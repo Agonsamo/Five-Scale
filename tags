@@ -1,0 +1,328 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	data.h	/^	double	A,C;                                        \/* G = A* ZA + C *\/$/;"	m	struct:PARAMETER
+ALBINO_DEFAULT	liberty.h	/^double ALBINO_DEFAULT[121] = $/;"	v
+ALBINO_FILE	data.h	/^	char ALBINO_FILE[120];$/;"	m	struct:PARAMETER
+ALPHA	data.h	/^	double	ALPHA;                                         \/* apex angle *\/$/;"	m	struct:PARAMETER
+ALPHA_B	data.h	/^	double	ALPHA_B,ALPHA_L;                    \/* branch and leaf angle *\/$/;"	m	struct:PARAMETER
+ALPHA_G	data.h	/^	double ALPHA_G[N_ANGLE];$/;"	m	struct:PARAMETER
+ALPHA_L	data.h	/^	double	ALPHA_B,ALPHA_L;                    \/* branch and leaf angle *\/$/;"	m	struct:PARAMETER
+ANGLE_FILE	data.h	/^	char	ANGLE_FILE[128];     \/* input file containing the angles to be simulated *\/$/;"	m	struct:PARAMETER
+ANGLE_RES	data.h	/^	double	ANGLE_RES;                      \/* angle resolution of PLANE *\/$/;"	m	struct:PARAMETER
+Alt_R	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+B	data.h	/^	double	B;                                          \/* DOMAIN SIZE   *\/	$/;"	m	struct:PARAMETER
+BACKGROUND_REF	data.h	/^	double  BACKGROUND_REF[MAX_WAVE];$/;"	m	struct:RESULT
+B_RANGE	data.h	/^	double B_RANGE[N_B];$/;"	m	struct:PARAMETER
+Band	data.h	/^	double  Band[10];$/;"	m	struct:PARAMETER
+C	data.h	/^	double	A,C;                                        \/* G = A* ZA + C *\/$/;"	m	struct:PARAMETER
+COMMENTS	data.h	/^	char	COMMENTS[128];                            \/* 128 characters comment line *\/$/;"	m	struct:PARAMETER
+COM_FILE	data.h	/^	char	COM_FILE[128];                                        \/* input file name *\/$/;"	m	struct:PARAMETER
+CONE_GS	cone_gs.c	/^void CONE_GS(in_p,out_p,CHOICE)$/;"	f
+CONE_TA	cone_ta.c	/^void CONE_TA(in_p,out_p)$/;"	f
+CONE_TI	cone_ti.c	/^void CONE_TI(in_p,out_p)$/;"	f
+Cp	data.h	/^	double  Cp;                                  \/* Used in Equ. 57 [1]  *\/$/;"	m	struct:PARAMETER
+Cs	data.h	/^	double	Cs;                                           \/* eq. 27 [2] *\/ $/;"	m	struct:RESULT
+Cv	data.h	/^	double	Cv;                                           \/* eq. 28 [2] *\/$/;"	m	struct:RESULT
+D	data.h	/^	double	D;                          \/* Number of trees in the domain *\/	$/;"	m	struct:PARAMETER
+D	liberty.h	/^	double D, xu, thick; \/* sphere diameter, air gap and thickness parameters  *\/$/;"	v
+DATA	data.h	/^	double	DATA;                                \/* POLDER measurements *\/ $/;"	m	struct:RESULT
+DATA_BAND	data.h	/^	double	DATA_BAND;                              \/* POLDER data band *\/$/;"	m	struct:RESULT
+DIST	data.h	/^	int		DIST;                                  \/* tree distribution *\/$/;"	m	struct:RESULT
+DISTANCE	distance.c	/^void DISTANCE(in_p,out_p) $/;"	f
+D_RANGE	data.h	/^	double D_RANGE[N_D]; $/;"	m	struct:PARAMETER
+DeltaLAI	data.h	/^	double	DeltaLAI;                           \/* Increase of LAI in MS *\/$/;"	m	struct:PARAMETER
+EQUATION1	equation1.c	/^double  EQUATION1(x,xa)$/;"	f
+E_r	data.h	/^	double	E_r;                         \/* mean distance between trees *\/$/;"	m	struct:RESULT
+Error	data.h	/^	int		Error[200];     \/*                ERROR[1] = Px_tot problem *\/$/;"	m	struct:RESULT
+FO	fo.c	/^void FO(in_p,out_p,CHOICE) $/;"	f
+FOLIAGE_REF	data.h	/^	double  FOLIAGE_REF[MAX_WAVE];$/;"	m	struct:RESULT
+FOLIAGE_TRANS	data.h	/^	double  FOLIAGE_TRANS[MAX_WAVE];$/;"	m	struct:RESULT
+FOUR_SCALE	4-scale3.c	/^void FOUR_SCALE( in_p, out_p)$/;"	f
+Fd	data.h	/^	double  Fd;$/;"	m	struct:RESULT
+Fn	data.h	/^	double  Fn;               \/* nadir maximum shadowed ground view ... *\/$/;"	m	struct:RESULT
+Fo	data.h	/^	double	Fo;                                           \/* eq. 31 [2] *\/$/;"	m	struct:RESULT
+Fr	data.h	/^	double	Fr;              \/* max Fo ...  1 == no overlaping at nadir *\/ $/;"	m	struct:PARAMETER
+Fs	data.h	/^	double	Fs;                                           \/* eq. 67 [1] *\/$/;"	m	struct:RESULT
+Ft	data.h	/^	double	Ft;                                           \/* eq. 52 [1] *\/$/;"	m	struct:RESULT
+G1	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+G2	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+G3	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+G4	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+GAMMA_E	data.h	/^	double	GAMMA_E;                            \/* needle to shoot ratio *\/$/;"	m	struct:PARAMETER
+GAMMA_RANGE	data.h	/^	double GAMMA_RANGE[N_GAMMA];  $/;"	m	struct:PARAMETER
+GE_CHOICE	data.h	/^	char	GE_CHOICE[128];                                \/* branch of G= A*ZA + C  *\/$/;"	m	struct:PARAMETER
+GFoliage	data.h	/^	double  GFoliage;$/;"	m	struct:RESULT
+GZ1	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+GZ1	data.h	/^	double  TZ1,TZ2,TZ3,TZ4,GZ1,GZ2,GZ3,GZ4;$/;"	m	struct:RESULT
+GZ2	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+GZ2	data.h	/^	double  TZ1,TZ2,TZ3,TZ4,GZ1,GZ2,GZ3,GZ4;$/;"	m	struct:RESULT
+GZ3	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+GZ3	data.h	/^	double  TZ1,TZ2,TZ3,TZ4,GZ1,GZ2,GZ3,GZ4;$/;"	m	struct:RESULT
+GZ4	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+GZ4	data.h	/^	double  TZ1,TZ2,TZ3,TZ4,GZ1,GZ2,GZ3,GZ4;$/;"	m	struct:RESULT
+GetParameters	parameters.c	/^void GetParameters(struct PARAMETER *local_in_p)$/;"	f
+Gs	data.h	/^	double	Gv,Gs;                                         \/* eq. 3 [2] *\/$/;"	m	struct:RESULT
+Gv	data.h	/^	double	Gv,Gs;                                         \/* eq. 3 [2] *\/$/;"	m	struct:RESULT
+H	data.h	/^	double	H;                       \/* eq. 68 [1] and effective height *\/$/;"	m	struct:RESULT
+HA_RANGE	data.h	/^	double HA_RANGE[N_HA];$/;"	m	struct:PARAMETER
+HB_RANGE	data.h	/^	double HB_RANGE[N_HB];$/;"	m	struct:PARAMETER
+Ha	data.h	/^	double	Ha;                                          \/* stick height *\/$/;"	m	struct:PARAMETER
+Hb	data.h	/^	double	Hb;                           \/* cylinder or spheroid height *\/$/;"	m	struct:PARAMETER
+Hc	data.h	/^	double	Hc;                                          \/* cone height *\/$/;"	m	struct:RESULT
+Initialise	Initialise.c	/^void Initialise(struct PARAMETER *in_p)$/;"	f
+LAI	data.h	/^	double	LAI;                                   \/* LAI of the forest  *\/$/;"	m	struct:PARAMETER
+LAI_RANGE	data.h	/^	double LAI_RANGE[N_LAI];$/;"	m	struct:PARAMETER
+LIBERTY	liberty.c	/^void LIBERTY(Default , in_p, out_p)$/;"	f
+LIBERTY_DEFAULT	data.h	/^	int  LIBERTY_DEFAULT;$/;"	m	struct:PARAMETER
+LIGCELL_DEFAULT	liberty.h	/^double LIGCELL_DEFAULT[421] = $/;"	v
+LIGCELL_FILE	data.h	/^	char LIGCELL_FILE[120];$/;"	m	struct:PARAMETER
+LS	ls.c	/^void LS(in_p,out_p,shape)$/;"	f
+Lb	data.h	/^	double	Lb;                                           \/* eq.  8 [2] *\/$/;"	m	struct:RESULT
+Ll	data.h	/^ 	double	Ll;                                \/* Branch leaf area index *\/$/;"	m	struct:PARAMETER
+Lo	data.h	/^	double	Lo;          \/* LAI accumulated in sun direction *\/$/;"	m	struct:RESULT
+Lo_90	data.h	/^	double	Lo_90;          \/* LAI accumulated horizontaly in one crown *\/$/;"	m	struct:RESULT
+Ls	data.h	/^	double	Ls;                                          \/* eq. 45 [1]  *\/$/;"	m	struct:RESULT
+Lt	data.h	/^	double	Lt;                                          \/* eq. 42 [1]  *\/$/;"	m	struct:RESULT
+M	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+M2_RANGE	data.h	/^	double M2_RANGE[N_M2];$/;"	m	struct:PARAMETER
+MAX_WAVE	data.h	7;"	d
+MULTIPLE_SCATTERING	multiple_scattering.c	/^void MULTIPLE_SCATTERING(in_p,out_p)$/;"	f
+Medium	data.h	/^	double Medium; \/* just for testing *\/$/;"	m	struct:RESULT
+N0	liberty.h	/^	double N0, N1, alpha, beta, in_angle, vert_r, para_r;$/;"	v
+N1	liberty.h	/^	double N0, N1, alpha, beta, in_angle, vert_r, para_r;$/;"	v
+NADIR	nadir.c	/^void NADIR(in_p,out_p)$/;"	f
+NEYMAN	neyman.c	/^void NEYMAN(in_p,out_p)  $/;"	f
+NN	data.h	4;"	d
+NN_A	data.h	/^	int NN_A;$/;"	m	struct:PARAMETER
+NN_ANGLE	data.h	/^	int NN_ANGLE;$/;"	m	struct:PARAMETER
+NN_B	data.h	/^	int NN_B; $/;"	m	struct:PARAMETER
+NN_D	data.h	/^	int NN_D;   $/;"	m	struct:PARAMETER
+NN_GAMMA	data.h	/^	int NN_GAMMA;$/;"	m	struct:PARAMETER
+NN_HA	data.h	/^	int NN_HA;$/;"	m	struct:PARAMETER
+NN_HB	data.h	/^	int NN_HB;$/;"	m	struct:PARAMETER
+NN_LAI	data.h	/^	int NN_LAI;  $/;"	m	struct:PARAMETER
+NN_M2	data.h	/^	int NN_M2;$/;"	m	struct:PARAMETER
+NN_OMEGA	data.h	/^	int NN_OMEGA;$/;"	m	struct:PARAMETER
+NN_OPTIC	data.h	/^	int NN_OPTIC; $/;"	m	struct:PARAMETER
+NN_PHI	data.h	/^	int NN_PHI;$/;"	m	struct:PARAMETER
+NN_QUADRAT	data.h	/^	int NN_QUADRAT;$/;"	m	struct:PARAMETER
+NN_R	data.h	/^	int NN_R;$/;"	m	struct:PARAMETER
+NN_SHAPE	data.h	/^	int NN_SHAPE;$/;"	m	struct:PARAMETER
+NN_SZA	data.h	/^	int NN_SZA;	\/* number of solar zenith angle that will be read in input file *\/$/;"	m	struct:PARAMETER
+NN_VZA	data.h	/^	int NN_VZA; \/* number of View zenith angle that will be read in input file *\/$/;"	m	struct:PARAMETER
+N_ANGLE	data.h	23;"	d
+N_B	data.h	24;"	d
+N_D	data.h	16;"	d
+N_GAMMA	data.h	18;"	d
+N_HA	data.h	21;"	d
+N_HB	data.h	20;"	d
+N_LAI	data.h	15;"	d
+N_M2	data.h	19;"	d
+N_OMEGA	data.h	17;"	d
+N_OPTIC	data.h	14;"	d
+N_PHI	data.h	13;"	d
+N_QUADRAT	data.h	26;"	d
+N_R	data.h	22;"	d
+N_SHAPE	data.h	25;"	d
+N_SZA	data.h	12;"	d
+N_VZA	data.h	11;"	d
+OMEGA_E	data.h	/^	double	OMEGA_E;                                   \/* clumping index *\/$/;"	m	struct:PARAMETER
+OMEGA_RANGE	data.h	/^	double OMEGA_RANGE[N_OMEGA];$/;"	m	struct:PARAMETER
+OPTIC_NIRG	data.h	/^	double OPTIC_NIRG[N_OPTIC];$/;"	m	struct:PARAMETER
+OPTIC_NIRT	data.h	/^	double OPTIC_NIRT[N_OPTIC]; $/;"	m	struct:PARAMETER
+OPTIC_NIRTT	data.h	/^	double OPTIC_NIRTT[N_OPTIC];$/;"	m	struct:PARAMETER
+OPTIC_REDG	data.h	/^	double OPTIC_REDG[N_OPTIC]; $/;"	m	struct:PARAMETER
+OPTIC_REDT	data.h	/^	double OPTIC_REDT[N_OPTIC]; $/;"	m	struct:PARAMETER
+OPTIC_REDTT	data.h	/^	double OPTIC_REDTT[N_OPTIC];$/;"	m	struct:PARAMETER
+OUTPUT_FILE	data.h	/^	char    OUTPUT_FILE[128];$/;"	m	struct:PARAMETER
+OVERLAP	overlap.c	/^void OVERLAP(in_p,out_p,CHOICE) $/;"	f
+OmegaE_stand	data.h	/^	double	OmegaE_stand;                       \/* Input clumping index *\/$/;"	m	struct:RESULT
+OmegaT	data.h	/^	double	OmegaT;                    \/* clumping of trees, eq. 43 [1] *\/$/;"	m	struct:RESULT
+OmegaTotal	data.h	/^	double  OmegaTotal;$/;"	m	struct:RESULT
+Optic_index	data.h	/^	int Optic_index;$/;"	m	struct:RESULT
+PARAMETER	data.h	/^struct PARAMETER$/;"	s
+PG	data.h	/^	double	PG;            \/*  prob.\/proportion of seeing sunlit ground *\/$/;"	m	struct:RESULT
+PHI	data.h	/^	double	PHI[1000];              \/* contains the azimuthal differences *\/ $/;"	m	struct:PARAMETER
+PHI_RANGE	data.h	/^	double PHI_RANGE[N_PHI];$/;"	m	struct:PARAMETER
+PI	data.h	1;"	d
+PIG	data.h	/^	double	PIG;                          \/* prob. having sunlit ground *\/$/;"	m	struct:RESULT
+PIGMENT_DEFAULT	liberty.h	/^static double  PIGMENT_DEFAULT[121] =$/;"	v
+PIGMENT_FILE	data.h	/^	char PIGMENT_FILE[120];$/;"	m	struct:PARAMETER
+PLOT	data.h	/^	char	PLOT[128];                           \/* Ploting style, PLANE, POLDER, 3D *\/$/;"	m	struct:PARAMETER
+POISSON	poisson.c	/^void  POISSON(in_p,out_p)$/;"	f
+PQ_SUB	pq_sub.c	/^void PQ_SUB(in_p,out_p,shape)$/;"	f
+PROTEIN_DEFAULT	liberty.h	/^double PROTEIN_DEFAULT[421] = $/;"	v
+PROTEIN_FILE	data.h	/^	char PROTEIN_FILE[120];$/;"	m	struct:PARAMETER
+PS	data.h	/^	double	PS;       \/* prob. of seeing sunlit ground far from hotspot *\/  $/;"	m	struct:RESULT
+PS	ps.c	/^void PS(in_p,out_p)$/;"	f
+PSG0_SUN	data.h	/^	double	PSG0_SUN;                  \/* "sun" gap fraction no overlap *\/ $/;"	m	struct:RESULT
+PSG0_VIEW	data.h	/^	double	PSG0_VIEW;                       \/* gap fraction no overlap *\/$/;"	m	struct:RESULT
+PSG_HOT0	data.h	/^	double	PSG_HOT0;                        \/*  gap fraction  at nadir *\/ $/;"	m	struct:RESULT
+PT	data.h	/^	double	PT;           \/*  prob.\/proportion of seeing sunlit foliage *\/$/;"	m	struct:RESULT
+PTG_SUB	ptg_sub.c	/^void PTG_SUB(in_p,out_p,CHOICE,MAX,INC)$/;"	f
+PT_Cold	data.h	/^	double	PT_Cold;                               \/* Ptf in eq. 66 [1] *\/  $/;"	m	struct:RESULT
+PVG	data.h	/^	double	PVG;                                        \/* gap fraction *\/$/;"	m	struct:RESULT
+PVG_NADIR	data.h	/^	double  PVG_NADIR;$/;"	m	struct:RESULT
+P_GAP_AX_B	p_gap_ax_b.c	/^void P_GAP_AX_B(in_p,out_p,CHOICE)$/;"	f
+P_GAP_BRANCH	p_gap_branch.c	/^void P_GAP_BRANCH(in_p,out_p,CHOICE)$/;"	f
+Pgap0	data.h	/^	double	Pgap0;                       \/* gap probability in a crown  *\/$/;"	m	struct:RESULT
+PgapS	data.h	/^	double	PgapV,PgapS;     \/* gap inside crown, view or sun direction *\/$/;"	m	struct:RESULT
+PgapV	data.h	/^	double	PgapV,PgapS;     \/* gap inside crown, view or sun direction *\/$/;"	m	struct:RESULT
+PgapV_mean	data.h	/^	double	PgapV_mean;     \/* gap based on mean angle for view factors *\/$/;"	m	struct:RESULT
+Pig	data.h	/^	double	Pig;                          \/* prob. having sunlit ground *\/$/;"	m	struct:RESULT
+Pig_poisson	data.h	/^	double  Pig_poisson; \/* Same as Pig, but using Poisson distribution *\/$/;"	m	struct:RESULT
+Ps	data.h	/^	double	Ps,Pv,Psc,Pvc;    \/* overlap probabilities eq 26. 27 .. [1] *\/ $/;"	m	struct:RESULT
+Psc	data.h	/^	double	Ps,Pv,Psc,Pvc;    \/* overlap probabilities eq 26. 27 .. [1] *\/ $/;"	m	struct:RESULT
+Pti	data.h	/^	double	Pti;                                             \/*  eq. 39 *\/$/;"	m	struct:RESULT
+Ptrees	data.h	/^	double	Ptrees[NN],Ptreev[NN];                        \/* eq. 64 [1] *\/$/;"	m	struct:RESULT
+Ptreev	data.h	/^	double	Ptrees[NN],Ptreev[NN];                        \/* eq. 64 [1] *\/$/;"	m	struct:RESULT
+Pv	data.h	/^	double	Ps,Pv,Psc,Pvc;    \/* overlap probabilities eq 26. 27 .. [1] *\/ $/;"	m	struct:RESULT
+Pvc	data.h	/^	double	Ps,Pv,Psc,Pvc;    \/* overlap probabilities eq 26. 27 .. [1] *\/ $/;"	m	struct:RESULT
+Pvg	data.h	/^	double	Pvg;                                        \/* gap fraction *\/$/;"	m	struct:RESULT
+Pvg_mean	data.h	/^	double  Pvg_mean;      \/* mean gap based on LAI for view factors .. *\/$/;"	m	struct:RESULT
+Px	data.h	/^	double	Px[NN];                  \/* tree spatial distribution prob. *\/$/;"	m	struct:RESULT
+Q	q.c	/^void Q(in_p,out_p,CP,shape)$/;"	f
+Q1	q1_ms.c	/^double Q1(theta,out_p,in_p,phi)$/;"	f
+QQ1	data.h	/^	double	QQ1,QQ2,QQ1B,QQ2B;                    \/* equ. 58 and 62 [1] *\/$/;"	m	struct:RESULT
+QQ1B	data.h	/^	double	QQ1,QQ2,QQ1B,QQ2B;                    \/* equ. 58 and 62 [1] *\/$/;"	m	struct:RESULT
+QQ2	data.h	/^	double	QQ1,QQ2,QQ1B,QQ2B;                    \/* equ. 58 and 62 [1] *\/$/;"	m	struct:RESULT
+QQ2B	data.h	/^	double	QQ1,QQ2,QQ1B,QQ2B;                    \/* equ. 58 and 62 [1] *\/$/;"	m	struct:RESULT
+QUADRAT_RANGE	data.h	/^	double QUADRAT_RANGE[N_QUADRAT];$/;"	m	struct:PARAMETER
+R	data.h	/^	double	R;                                    \/* radius of the crown *\/$/;"	m	struct:PARAMETER
+R	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+RATIO	data.h	/^	double	RATIO;                      \/* foliage thickness\/width ratio *\/$/;"	m	struct:PARAMETER
+RESULT	data.h	/^ struct RESULT$/;"	s
+RG	data.h	/^	double  RG[MAX_WAVE];$/;"	m	struct:PARAMETER
+RT	data.h	/^	double  RT[MAX_WAVE];$/;"	m	struct:PARAMETER
+R_RANGE	data.h	/^	double R_RANGE[N_R];$/;"	m	struct:PARAMETER
+Rb	data.h	/^	double  Rb;               \/* thickness of branches, used in ratio ...*\/$/;"	m	struct:PARAMETER
+Refl_max	liberty.h	/^	double	Refl_max[500];$/;"	v
+SHAPE	data.h	/^	char	SHAPE[128];                                \/* SPHEROID of CONE+CYLINDER  *\/$/;"	m	struct:PARAMETER
+SHAPE_RANGE	data.h	/^	double SHAPE_RANGE[N_SHAPE];$/;"	m	struct:PARAMETER
+SPECTRAL	data.h	/^	int		SPECTRAL; \/* indicates if the model runs in $/;"	m	struct:PARAMETER
+SPHEROID_SVG	spheroid_svg.c	/^void SPHEROID_SVG(in_p,out_p,CHOICE)$/;"	f
+SPHEROID_TA	spheroid_ta.c	/^void SPHEROID_TA(in_p,out_p)$/;"	f
+SPHEROID_TI	spheroid_ti.c	/^void SPHEROID_TI(in_p,out_p)$/;"	f
+SR	data.h	/^	double  SR;			                   \/* Simple Ratio NIR \/ RED    *\/$/;"	m	struct:RESULT
+SZA	data.h	/^	double	SZA;$/;"	m	struct:PARAMETER
+SZA2	data.h	/^	double	SZA2[1000];                              \/* solar zenith angle *\/$/;"	m	struct:PARAMETER
+SZA_RANGE	data.h	/^	double SZA_RANGE[N_SZA];$/;"	m	struct:PARAMETER
+SZA_TMP	data.h	/^	double	SZA_TMP;  \/* used as a flag for not recomputing some values *\/$/;"	m	struct:RESULT
+Sg	data.h	/^	double	Sg,Sg_0,Sgc;         \/* shadow from one crown on the ground *\/$/;"	m	struct:RESULT
+Sg_0	data.h	/^	double	Sg,Sg_0,Sgc;         \/* shadow from one crown on the ground *\/$/;"	m	struct:RESULT
+Sgc	data.h	/^	double	Sg,Sg_0,Sgc;         \/* shadow from one crown on the ground *\/$/;"	m	struct:RESULT
+Ss	data.h	/^	double	Ss,Sv;                                   \/* see equ. 25 [1] *\/$/;"	m	struct:RESULT
+Sv	data.h	/^	double	Ss,Sv;                                   \/* see equ. 25 [1] *\/$/;"	m	struct:RESULT
+T	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+T1	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+T2	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+T3	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+T4	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+TREE_SIZE	tree_size.c	/^void TREE_SIZE(in_p,out_p,CHOICE) $/;"	f
+TRIANGLE	triangle.c	/^ double  TRIANGLE(xa,ya,xb,yb,xc,yc) $/;"	f
+TT	data.h	/^	double  TT[MAX_WAVE];$/;"	m	struct:PARAMETER
+TT1	data.h	/^	double	TT1,TT2,TT3,TT4;                              \/* transmitivities *\/$/;"	m	struct:PARAMETER
+TT2	data.h	/^	double	TT1,TT2,TT3,TT4;                              \/* transmitivities *\/$/;"	m	struct:PARAMETER
+TT3	data.h	/^	double	TT1,TT2,TT3,TT4;                              \/* transmitivities *\/$/;"	m	struct:PARAMETER
+TT4	data.h	/^	double	TT1,TT2,TT3,TT4;                              \/* transmitivities *\/$/;"	m	struct:PARAMETER
+TZ1	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+TZ1	data.h	/^	double  TZ1,TZ2,TZ3,TZ4,GZ1,GZ2,GZ3,GZ4;$/;"	m	struct:RESULT
+TZ2	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+TZ2	data.h	/^	double  TZ1,TZ2,TZ3,TZ4,GZ1,GZ2,GZ3,GZ4;$/;"	m	struct:RESULT
+TZ3	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+TZ3	data.h	/^	double  TZ1,TZ2,TZ3,TZ4,GZ1,GZ2,GZ3,GZ4;$/;"	m	struct:RESULT
+TZ4	data.h	/^	double	G1,GZ1,T1,TZ1,G2,GZ2,T2,TZ2,G3,GZ3,T3,TZ3,G4,GZ4,T4,TZ4; $/;"	m	struct:PARAMETER
+TZ4	data.h	/^	double  TZ1,TZ2,TZ3,TZ4,GZ1,GZ2,GZ3,GZ4;$/;"	m	struct:RESULT
+V	data.h	/^	double	V;                                          \/* crown volume *\/$/;"	m	struct:RESULT
+VZA	data.h	/^	double  VZA[1000];$/;"	m	struct:PARAMETER
+VZA_MAX	data.h	/^	double	VZA_MAX;                     \/* maximum VZA in PLANE outpput *\/$/;"	m	struct:PARAMETER
+VZA_MIN	data.h	/^	double  VZA_MIN;                     \/* minimun VZA in PLANE outpput *\/$/;"	m	struct:PARAMETER
+VZA_RANGE	data.h	/^	double VZA_RANGE[N_VZA];$/;"	m	struct:PARAMETER
+Vg	data.h	/^	double	Vg,Vg_0,Vgc;             \/* ground projected crown element  *\/$/;"	m	struct:RESULT
+Vg_0	data.h	/^	double	Vg,Vg_0,Vgc;             \/* ground projected crown element  *\/$/;"	m	struct:RESULT
+Vg_0_mean	data.h	/^	double  Vg_0_mean; \/* Vg_0 at mean angle based on LAI for view fact.*\/$/;"	m	struct:RESULT
+Vgc	data.h	/^	double	Vg,Vg_0,Vgc;             \/* ground projected crown element  *\/$/;"	m	struct:RESULT
+Viewed_shadow	data.h	/^	double  Viewed_shadow;$/;"	m	struct:RESULT
+WATER_DEFAULT	liberty.h	/^static double WATER_DEFAULT[421] =  $/;"	v
+WATER_FILE	data.h	/^	char WATER_FILE[120];$/;"	m	struct:PARAMETER
+Wave	data.h	/^	double  Wave[MAX_WAVE];$/;"	m	struct:RESULT
+Ws	data.h	/^	double	Ws;                         \/* typical foliage element width *\/$/;"	m	struct:PARAMETER
+Wt	data.h	/^	double	Wt;                                        \/*   eq. 41 [1]  *\/  $/;"	m	struct:RESULT
+XI	xi.c	/^double XI(sza,vza,phi)$/;"	f
+ZG	data.h	/^	double	ZG;      \/* proportion\/probability of seeing shaded ground  *\/$/;"	m	struct:RESULT
+ZT	data.h	/^	double	ZT;      \/* proportion\/probability of seeing shaded foliage *\/$/;"	m	struct:RESULT
+a	liberty.h	/^	double c_factor, w_factor, l_factor, p_factor, element, baseline,a,b,c,d,e,f;$/;"	v
+alpha	liberty.h	/^	double N0, N1, alpha, beta, in_angle, vert_r, para_r;$/;"	v
+b	liberty.h	/^	double c_factor, w_factor, l_factor, p_factor, element, baseline,a,b,c,d,e,f;$/;"	v
+baseline	liberty.h	/^	double c_factor, w_factor, l_factor, p_factor, element, baseline,a,b,c,d,e,f;$/;"	v
+beta	liberty.h	/^	double N0, N1, alpha, beta, in_angle, vert_r, para_r;$/;"	v
+c	liberty.h	/^	double c_factor, w_factor, l_factor, p_factor, element, baseline,a,b,c,d,e,f;$/;"	v
+c_factor	liberty.h	/^	double c_factor, w_factor, l_factor, p_factor, element, baseline,a,b,c,d,e,f;$/;"	v
+calc_M	liberty.c	/^void calc_M()$/;"	f
+calc_R	liberty.c	/^void calc_R()$/;"	f
+calc_T	liberty.c	/^void calc_T()$/;"	f
+coeff	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+contfunc	liberty.c	/^void contfunc()$/;"	f
+critical	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+d	liberty.h	/^	double c_factor, w_factor, l_factor, p_factor, element, baseline,a,b,c,d,e,f;$/;"	v
+e	liberty.h	/^	double c_factor, w_factor, l_factor, p_factor, element, baseline,a,b,c,d,e,f;$/;"	v
+element	liberty.h	/^	double c_factor, w_factor, l_factor, p_factor, element, baseline,a,b,c,d,e,f;$/;"	v
+eval_me	liberty.c	/^void eval_me()$/;"	f
+eval_mi	liberty.c	/^void eval_mi()$/;"	f
+eval_x	liberty.c	/^void eval_x()$/;"	f
+f	liberty.h	/^	double c_factor, w_factor, l_factor, p_factor, element, baseline,a,b,c,d,e,f;$/;"	v
+fB	data.h	/^	double	fB[10];      \/* fraction of direct light (visible) 10 bands..*\/ $/;"	m	struct:PARAMETER
+in_angle	liberty.h	/^	double N0, N1, alpha, beta, in_angle, vert_r, para_r;$/;"	v
+k_chloro	liberty.h	/^	double k_chloro[500], k_water[500], k_ligcell[500], k_protein[500], ke[500];$/;"	v
+k_ligcell	liberty.h	/^	double k_chloro[500], k_water[500], k_ligcell[500], k_protein[500], ke[500];$/;"	v
+k_protein	liberty.h	/^	double k_chloro[500], k_water[500], k_ligcell[500], k_protein[500], ke[500];$/;"	v
+k_water	liberty.h	/^	double k_chloro[500], k_water[500], k_ligcell[500], k_protein[500], ke[500];$/;"	v
+ke	liberty.h	/^	double k_chloro[500], k_water[500], k_ligcell[500], k_protein[500], ke[500];$/;"	v
+l_factor	liberty.h	/^	double c_factor, w_factor, l_factor, p_factor, element, baseline,a,b,c,d,e,f;$/;"	v
+lambda_m	data.h	/^	double	lambda_m;                  \/* minimum gap size (eq. 52 [1]) *\/$/;"	m	struct:RESULT
+m2	data.h	/^	double	m2;                                \/* Neyman grouping index  *\/	$/;"	m	struct:PARAMETER
+m_BASELINE	data.h	/^	double	m_BASELINE;$/;"	m	struct:PARAMETER
+m_C_FACTOR	data.h	/^	double	m_C_FACTOR;$/;"	m	struct:PARAMETER
+m_D	data.h	/^	double	m_D;$/;"	m	struct:PARAMETER
+m_ELEMENT	data.h	/^	double	m_ELEMENT;$/;"	m	struct:PARAMETER
+m_L_FACTOR	data.h	/^	double	m_L_FACTOR;$/;"	m	struct:PARAMETER
+m_P_FACTOR	data.h	/^	double	m_P_FACTOR;$/;"	m	struct:PARAMETER
+m_THICK	data.h	/^	double	m_THICK;$/;"	m	struct:PARAMETER
+m_W_FACTOR	data.h	/^	double	m_W_FACTOR;$/;"	m	struct:PARAMETER
+m_XU	data.h	/^	double	m_XU;$/;"	m	struct:PARAMETER
+main	5-scale.c	/^main (argc,argv)$/;"	f
+me	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+mi	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+mu	data.h	/^	double  mu;$/;"	m	struct:RESULT
+n	data.h	/^	double	n;                                     \/* number of quadrat  *\/$/;"	m	struct:PARAMETER
+p_factor	liberty.h	/^	double c_factor, w_factor, l_factor, p_factor, element, baseline,a,b,c,d,e,f;$/;"	v
+para_r	liberty.h	/^	double N0, N1, alpha, beta, in_angle, vert_r, para_r;$/;"	v
+para_rad	liberty.c	/^void para_rad()$/;"	f
+phi	data.h	/^	double	phi;                                 \/* azimuth diff. angle *\/$/;"	m	struct:RESULT
+rb	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+refl	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+refrac	liberty.c	/^void refrac()$/;"	f
+rif	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+ro	data.h	/^	double  ro[MAX_WAVE];                 \/* hyperspectral reflectance  *\/$/;"	m	struct:RESULT
+s	data.h	/^	double	s;                                             \/* mean path *\/  $/;"	m	struct:RESULT
+tab	data.h	/^	double	tic,tib,tac,tab;                   \/* see eq. 15 and 39 [1] *\/$/;"	m	struct:RESULT
+tac	data.h	/^	double	tic,tib,tac,tab;                   \/* see eq. 15 and 39 [1] *\/$/;"	m	struct:RESULT
+tb	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+thick	liberty.h	/^	double D, xu, thick; \/* sphere diameter, air gap and thickness parameters  *\/$/;"	v
+tib	data.h	/^	double	tic,tib,tac,tab;                   \/* see eq. 15 and 39 [1] *\/$/;"	m	struct:RESULT
+tic	data.h	/^	double	tic,tib,tac,tab;                   \/* see eq. 15 and 39 [1] *\/$/;"	m	struct:RESULT
+tif	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+tot_ref	liberty.c	/^void tot_ref()$/;"	f
+trans	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+vert_r	liberty.h	/^	double N0, N1, alpha, beta, in_angle, vert_r, para_r;$/;"	v
+vert_rad	liberty.c	/^void vert_rad()$/;"	f
+vza	data.h	/^	double	vza;                                   \/* view zenith angle *\/$/;"	m	struct:RESULT
+w_factor	liberty.h	/^	double c_factor, w_factor, l_factor, p_factor, element, baseline,a,b,c,d,e,f;$/;"	v
+wavelength	liberty.h	/^	int	wavelength[500];$/;"	v
+x	liberty.h	/^	double critical, me, mi, coeff, M, T, x, R, Alt_R,refl,trans,rb,tb,rif,tif;$/;"	v
+xi	data.h	/^	double	xi;                                          \/* phase angle *\/$/;"	m	struct:RESULT
+xu	liberty.h	/^	double D, xu, thick; \/* sphere diameter, air gap and thickness parameters  *\/$/;"	v
