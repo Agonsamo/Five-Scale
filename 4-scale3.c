@@ -100,7 +100,7 @@ struct RESULT *out_p;
 
 	if (!strcmp(in_p.GE_CHOICE,"BRANCH")) Gchoice=2; 
 	else Gchoice=1;
-
+/* try */
 
 
 	/****  Neyman grouping m2=0 forces a Poisson distribution    ****/ 
